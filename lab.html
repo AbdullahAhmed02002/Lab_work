@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Interactive Sounds! </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Tone.js"></script>
+    <script src="app.js" charset="utf-8" defer></script>
+  </head>
+  <body>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+
+    <div class="intro" id="intro">
+       Please click anywhere to begin!
+    </div>
+
+
+    <audio id="thunder" loop>
+      <source src="samplesound.wav" type="audio/mpeg">
+        <source src="birds.wav" type="audio/mpeg">
+          Apologies- browser cannot play audio!
+    </audio>
+
+    <div class="container">
+      <div class="interactive" id="interactive">
+
+      </div>
+
+    </div>
+
+  </body>
+</html>

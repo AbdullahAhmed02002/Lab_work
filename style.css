@@ -1,0 +1,27 @@
+body {
+  transition: background-color 3.0s ease-in-out;
+}
+
+.intro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: midnightblue ;
+  text-align: center;
+  font-family: 'Zen Antique', serif;
+}
+
+
+.container {
+  display: grid;
+  width: 100vw;
+  height:100vh;
+}
+
+.interactive {
+  align-self: center;
+  justify-self: center;
+  width: 200px;
+  height: 200px;
+  border: 8px gold solid;
+}
